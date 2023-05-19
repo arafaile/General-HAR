@@ -1247,7 +1247,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 								</li>
 								<div class="divider-vertical">&nbsp;</div>
 							
-								<li class=" sf-top">
+								<li class="sf-top">
 									<a href="/Matrix/Stats" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Stats&quot;]" class="">
 										<span class="text-uppercase">Stats</span>
 									</a>
@@ -1255,7 +1255,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 								</li>
 								<div class="divider-vertical">&nbsp;</div>
 							
-								<li class=" sf-top">
+								<li class="sf-top">
 									<a href="/Matrix/MarketReports" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Market Reports&quot;]" class="">
 										<span class="text-uppercase">Market Reports</span>
 									</a>
@@ -1263,7 +1263,17 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 								</li>
 								<div class="divider-vertical">&nbsp;</div>
 							
-								<li class="sf-top">
+								
+								
+							
+								
+								
+							
+						<li class="sf-top" id="navMore" style="display: inline-block;">
+							<a class="sf-with-ul">
+								<span class="text-uppercase"><span>More</span></span>
+							</a>
+							<ul style="display: none; float: none; width: 9em;"><li class="">
 									<a href="http://www.har.com/homevalues/seller_netsheet" target="_blank" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Finance&quot;]" class="sf-with-ul">
 										<span class="text-uppercase">Finance</span>
 									</a>
@@ -1289,17 +1299,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 												
 											</li>
 										</ul>
-								</li>
-								<div class="divider-vertical">&nbsp;</div>
-							
-								
-								
-							
-						<li class="sf-top" id="navMore" style="display: inline-block;">
-							<a class="sf-with-ul">
-								<span class="text-uppercase"><span>More</span></span>
-							</a>
-							<ul style="display: none; float: none; width: 9em;"><li class="">
+								</li><li class="">
 									<a href="/Matrix/Links" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Links&quot;]" class="">
 										<span class="text-uppercase">Links</span>
 									</a>
