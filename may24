@@ -1,108 +1,26 @@
-<html><head><title>Matrix</title><link href="/Matrix/css/matrix?v=mICIcj-r-mIM6Axf2RUyrG7QquVOkDYWVAAGS2yrVyo1" rel="stylesheet">
+<html><head><title>
+	Matrix
+</title><link href="/Matrix/css/matrix?v=mICIcj-r-mIM6Axf2RUyrG7QquVOkDYWVAAGS2yrVyo1" rel="stylesheet">
 <link href="/Matrix/autocss/!/results_css?v=w8erPOMVkLUQSEkl1s97F-OnERpv-w7sFVnwvWxM-wI1" rel="stylesheet">
 <link href="/Matrix/css/custom?v=UBX12ZWznhZlPM6-l2HWrAlNBpyz25fXGkoOpJN8K8o1" rel="stylesheet">
 
 	<script type="text/javascript" async="" src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"></script><script type="text/javascript" src="/Matrix/Results.min.js?V=2M2A"></script>
 	<script type="text/javascript" src="/Matrix/buttonbar.min.js?V=2M2A">
 	</script>
-<link rel="stylesheet" type="text/css" href="/Matrix/Public/Template/Css.ashx?t=58&amp;v=186" displaystylesheet="true"><script type="text/javascript">if (window.mtxAnalytics) {mtxAnalytics.init("3da8d56ab740ca12e1101ecfd9d90a54", {batch_requests:true, track_pageview:false});mtxAnalytics.reset();mtxAnalytics.register({appId:"Matrix", resID:"1000062", AgentID:"markgheb", distinctID:"markgheb"});}</script><script type="text/javascript">ResultsJs.asyncPostUpdate('');
-</script><script type="text/javascript">Dpy.addStyleSheet('\/Matrix\/Public\/Template\/Css.ashx?t=58&v=186');
-</script><script type="text/javascript">var ImageViewerML = {th:'Thumbnails',closeth:'Close Thumbnails',lb:'Larger View',play:'Slideshow',pause:'Stop',print:'Open All'};
-</script><script type="text/javascript">var displayButtons;
-Dpy.setWhyCantSort('m_DisplayCore',undefined);
-var DpyCB = (new DisplayCheckBoxSetClass({ HFPrefix:'',CBPrefix:'CHB_',SingleSelect:false}).initialise(34,0,9,0));
-DpyCB.addListener(ResultsJs.updateSubHeadCheckControls);
-DpyCB.addListener(ResultsJs.updateButtonBarCheckedCount);
-DpyCB.addListener(DpyHelp.updateCheckAll('m_cbxBottomCheckAll'));
-var DpyDD = new DisplayCoreDragDrop({ HFPrefix:'hf',CBPrefix:'CHB_',PBTarget:'m_DisplayCore'});;
-DpyDD.setupDragDrop();
-</script><script type="text/javascript">MLClientLabel.registerOptions('m_lblMapSummary',{Default:function( extra ){ return "<b>" + ( extra.visiblecount != null ? extra.visiblecount : '' ) + "</b> of <b>" + ( extra.count != null ? extra.count : '' ) + "</b>"; }},'Default');
-</script><script type="text/javascript">MLClientLabel.registerOptions('m_lblCheckedCount',{Default:function( extra ){ return "Checked <strong>" + ( extra.checkeditems != null ? extra.checkeditems : '' ) + "</strong>"; }},'Default');
-</script><script type="text/javascript">new GeocodeAddressClass({base:'m_ga', tb:'m_ga_m_tb', hfLat:'m_ga_m_hfLat', hfLong:'m_ga_m_hfLong'}, 'AtmMylOwdOQG4NWGfiM7G1EsIkDI42JQuufWW9tF9PE8gKv2A77HyRzj4xEGEfqP', '28.197829637859,-97.0751953125,31.9893485668062,-93.504638671875', '/Matrix/Public/LocationList/GetLocations.ashx?L=1&u=108839', 0);</script><script type="text/javascript">displayButtons = new ButtonBar(function(  ){ return "You must check at least 1 item."; },function( extra ){ return "You have too many items checked for this action (max = " + ( extra.maxitemschecked != null ? extra.maxitemschecked : '' ) + ")."; });
-displayButtons.addButton('m_lbNarrow',1,500, undefined, undefined);
-displayButtons.addButton('m_lbDiscard',1,500, undefined, undefined);
-displayButtons.addButton('m_lbPrint',1,2500, undefined, undefined);
-displayButtons.addButton('m_lbAgentShare',1,50, undefined, undefined);
-displayButtons.addButton('m_lbCMA',1,50, undefined, undefined);
-displayButtons.addButton('m_lbEmail',1,500, undefined, undefined);
-displayButtons.addButton('m_lbDrivingDirections',1,20, undefined, undefined);
-displayButtons.addButton('m_lbUndiscard',0,2147483647, undefined, undefined);
-displayButtons.addButton('m_lbExport',1,5000, false, false);
-displayButtons.addButton('m_lbReviseSearch',0,2147483647, undefined, undefined);
-displayButtons.addButton('m_aSort',0,2147483647, false, ResultsJs.whyCantSort(function(  ){ return "It is not meaningful to sort the results on the map page."; },null, false));
-displayButtons.addButton('m_btnStats',0,5000, false, false);
-displayButtons.addButton('m_ucCartControl_m_lbRemove',1,2147483647, undefined, undefined);
-displayButtons.addButton('m_ucCartControl_m_lbAddTo',1,-1, undefined, CartObj.WhyCartAddDisabled);
-displayButtons.addButton('m_ucCartControl_m_lbAddCart',1,250, undefined, CartObj.WhyNewCartDisabled);
-displayButtons.addButton('m_ucCartControl_m_lbView',0,2147483647, undefined, CartObj.WhyCartViewDisabled);
-displayButtons.addButton('m_cbbActionMenu_m_lvButtons_ctrl0_cbbButtonBar_m_lbCustomLink',1,500, undefined, undefined);
-displayButtons.addButton('m_cbbActionMenu_m_lvButtons_ctrl1_cbbButtonBar_m_lbCustomLink',1,50, undefined, undefined);
-displayButtons.addButton('m_cbbActionMenu_m_lvButtons_ctrl2_cbbButtonBar_m_lbCustomLink',1,120, undefined, undefined);
-displayButtons.addButton('m_cbbActionMenu_m_lvButtons_ctrl3_cbbButtonBar_m_lbCustomLink',1,25, undefined, undefined);
-displayButtons.addButton('m_cbbActionMenu_m_lvButtons_ctrl4_cbbButtonBar_m_lbCustomLink',1,25, undefined, undefined);
-displayButtons.addUpdateCallback(updateStatsLinks(5000,function( extra ){ return "You have too many items checked for this action (max = " + ( extra.maxitemschecked != null ? extra.maxitemschecked : '' ) + ")."; },function(  ){ return "The Charts function does not work on a specific set of checked listings. Please un-check all and try again."; }));displayButtons.addSelect('m_ddlInterTableQueries','m_lblSearchSelected',1,250);
-</script><script type="text/javascript">window.displayPaging = new DisplayPagingClass('m_DisplayCore_dpy1','m_DisplayCore_dpy2', false);
-</script><script type="text/javascript">var gridSaveLinks = new GridSaveLinksJsClass({displayName:'#m_ucGridSaveLinks_m_tbNewDisplayName',save:'#m_ucGridSaveLinks_m_lbSave',saveAs:'#m_ucGridSaveLinks_m_lbSaveAs'}, {BlankDisplayName:function(  ){ return "The Display Name cannot be blank. No changes are saved."; }});gridSaveLinks.init();</script><script type="text/javascript">var ddt = new DragDropTableClass({hfGridState:'#m_ucDragDropTable_m_hfGridState',radioLeft:'#m_ucDragDropTable_m_radioLeft',radioRight:'#m_ucDragDropTable_m_radioRight',radioCenter:'#m_ucDragDropTable_m_radioCenter',ckboxWrap:'#m_ucDragDropTable_m_cbxWrap',txtPixelWidth:'#txtPixelWidth',lbInsertColumn:'#m_ucDragDropTable_m_lbAddColumn',upAddColumn:'#m_ucDragDropTable_m_upAddColumn',lbxAvailableColumns:'#m_ucDragDropTable_m_lbxAvailableFields',popupColProperties:'#columnProperties',tGridTable:'table.displayGrid',tExtraColumns:''}, '58', 186, 0, 50, {TooManyColumns:function(  ){ return "Too many columns added (max 50 total)"; },CannotRemoveColumn:function(  ){ return "There must be at least one column in a grid."; },HowToInsertColumn:function(  ){ return "Select column(s) below and click Apply."; }}, 1);</script><script type="text/javascript">CartObj.UpdateCartCount(0);</script><script type="text/javascript">ResultsJs.bindResults(DpyCB,false,true);
-ResultsJs.setCanCheckAll(true);
-ResultsJs.bindSubHeader();
-ResultsJs.trackHistory();
-ResultsJs.resizeGrid();
-</script><script type="text/javascript">if (window.mtxAnalytics) {mtxAnalytics.init("3da8d56ab740ca12e1101ecfd9d90a54", {batch_requests:true, track_pageview:false});mtxAnalytics.reset();mtxAnalytics.register({appId:"Matrix", resID:"1000062", AgentID:"markgheb", distinctID:"markgheb"});}</script><script type="text/javascript">ResultsJs.asyncPostUpdate('');
-</script><script type="text/javascript">Dpy.addStyleSheet('\/Matrix\/Public\/Template\/Css.ashx?t=58&v=186');
-</script><script type="text/javascript">var ImageViewerML = {th:'Thumbnails',closeth:'Close Thumbnails',lb:'Larger View',play:'Slideshow',pause:'Stop',print:'Open All'};
-</script><script type="text/javascript">var displayButtons;
-Dpy.setWhyCantSort('m_DisplayCore',undefined);
-var DpyCB = (new DisplayCheckBoxSetClass({ HFPrefix:'',CBPrefix:'CHB_',SingleSelect:false}).initialise(34,0,34,0));
-DpyCB.addListener(ResultsJs.updateSubHeadCheckControls);
-DpyCB.addListener(ResultsJs.updateButtonBarCheckedCount);
-DpyCB.addListener(DpyHelp.updateCheckAll('m_cbxBottomCheckAll'));
-var DpyDD = new DisplayCoreDragDrop({ HFPrefix:'hf',CBPrefix:'CHB_',PBTarget:'m_DisplayCore'});;
-DpyDD.setupDragDrop();
-</script><script type="text/javascript">MLClientLabel.registerOptions('m_lblMapSummary',{Default:function( extra ){ return "<b>" + ( extra.visiblecount != null ? extra.visiblecount : '' ) + "</b> of <b>" + ( extra.count != null ? extra.count : '' ) + "</b>"; }},'Default');
-</script><script type="text/javascript">MLClientLabel.registerOptions('m_lblCheckedCount',{Default:function( extra ){ return "Checked <strong>" + ( extra.checkeditems != null ? extra.checkeditems : '' ) + "</strong>"; }},'Default');
-</script><script type="text/javascript">new GeocodeAddressClass({base:'m_ga', tb:'m_ga_m_tb', hfLat:'m_ga_m_hfLat', hfLong:'m_ga_m_hfLong'}, 'AtmMylOwdOQG4NWGfiM7G1EsIkDI42JQuufWW9tF9PE8gKv2A77HyRzj4xEGEfqP', '28.197829637859,-97.0751953125,31.9893485668062,-93.504638671875', '/Matrix/Public/LocationList/GetLocations.ashx?L=1&u=108839', 0);</script><script type="text/javascript">displayButtons = new ButtonBar(function(  ){ return "You must check at least 1 item."; },function( extra ){ return "You have too many items checked for this action (max = " + ( extra.maxitemschecked != null ? extra.maxitemschecked : '' ) + ")."; });
-displayButtons.addButton('m_lbNarrow',1,500, undefined, undefined);
-displayButtons.addButton('m_lbDiscard',1,500, undefined, undefined);
-displayButtons.addButton('m_lbPrint',1,2500, undefined, undefined);
-displayButtons.addButton('m_lbAgentShare',1,50, undefined, undefined);
-displayButtons.addButton('m_lbCMA',1,50, undefined, undefined);
-displayButtons.addButton('m_lbEmail',1,500, undefined, undefined);
-displayButtons.addButton('m_lbDrivingDirections',1,20, undefined, undefined);
-displayButtons.addButton('m_lbUndiscard',0,2147483647, undefined, undefined);
-displayButtons.addButton('m_lbExport',1,5000, false, false);
-displayButtons.addButton('m_lbReviseSearch',0,2147483647, undefined, undefined);
-displayButtons.addButton('m_aSort',0,2147483647, false, ResultsJs.whyCantSort(function(  ){ return "It is not meaningful to sort the results on the map page."; },null, false));
-displayButtons.addButton('m_btnStats',0,5000, false, false);
-displayButtons.addButton('m_ucCartControl_m_lbRemove',1,2147483647, undefined, undefined);
-displayButtons.addButton('m_ucCartControl_m_lbAddTo',1,-1, undefined, CartObj.WhyCartAddDisabled);
-displayButtons.addButton('m_ucCartControl_m_lbAddCart',1,250, undefined, CartObj.WhyNewCartDisabled);
-displayButtons.addButton('m_ucCartControl_m_lbView',0,2147483647, undefined, CartObj.WhyCartViewDisabled);
-displayButtons.addButton('m_cbbActionMenu_m_lvButtons_ctrl0_cbbButtonBar_m_lbCustomLink',1,500, undefined, undefined);
-displayButtons.addButton('m_cbbActionMenu_m_lvButtons_ctrl1_cbbButtonBar_m_lbCustomLink',1,50, undefined, undefined);
-displayButtons.addButton('m_cbbActionMenu_m_lvButtons_ctrl2_cbbButtonBar_m_lbCustomLink',1,120, undefined, undefined);
-displayButtons.addButton('m_cbbActionMenu_m_lvButtons_ctrl3_cbbButtonBar_m_lbCustomLink',1,25, undefined, undefined);
-displayButtons.addButton('m_cbbActionMenu_m_lvButtons_ctrl4_cbbButtonBar_m_lbCustomLink',1,25, undefined, undefined);
-displayButtons.addUpdateCallback(updateStatsLinks(5000,function( extra ){ return "You have too many items checked for this action (max = " + ( extra.maxitemschecked != null ? extra.maxitemschecked : '' ) + ")."; },function(  ){ return "The Charts function does not work on a specific set of checked listings. Please un-check all and try again."; }));displayButtons.addSelect('m_ddlInterTableQueries','m_lblSearchSelected',1,250);
-</script><script type="text/javascript">window.displayPaging = new DisplayPagingClass('m_DisplayCore_dpy1','m_DisplayCore_dpy2', false);
-</script><script type="text/javascript">var gridSaveLinks = new GridSaveLinksJsClass({displayName:'#m_ucGridSaveLinks_m_tbNewDisplayName',save:'#m_ucGridSaveLinks_m_lbSave',saveAs:'#m_ucGridSaveLinks_m_lbSaveAs'}, {BlankDisplayName:function(  ){ return "The Display Name cannot be blank. No changes are saved."; }});gridSaveLinks.init();</script><script type="text/javascript">var ddt = new DragDropTableClass({hfGridState:'#m_ucDragDropTable_m_hfGridState',radioLeft:'#m_ucDragDropTable_m_radioLeft',radioRight:'#m_ucDragDropTable_m_radioRight',radioCenter:'#m_ucDragDropTable_m_radioCenter',ckboxWrap:'#m_ucDragDropTable_m_cbxWrap',txtPixelWidth:'#txtPixelWidth',lbInsertColumn:'#m_ucDragDropTable_m_lbAddColumn',upAddColumn:'#m_ucDragDropTable_m_upAddColumn',lbxAvailableColumns:'#m_ucDragDropTable_m_lbxAvailableFields',popupColProperties:'#columnProperties',tGridTable:'table.displayGrid',tExtraColumns:''}, '58', 186, 0, 50, {TooManyColumns:function(  ){ return "Too many columns added (max 50 total)"; },CannotRemoveColumn:function(  ){ return "There must be at least one column in a grid."; },HowToInsertColumn:function(  ){ return "Select column(s) below and click Apply."; }}, 1);</script><script type="text/javascript">CartObj.UpdateCartCount(0);</script><script type="text/javascript">ResultsJs.bindResults(DpyCB,false,false);
-ResultsJs.setCanCheckAll(true);
-ResultsJs.bindSubHeader();
-ResultsJs.trackHistory();
-ResultsJs.resizeGrid();
-</script></head>
+<link rel="stylesheet" type="text/css" href="/Matrix/Public/Template/Css.ashx?t=58&amp;v=186" displaystylesheet="true"></head>
 <body class="vsc-initialized">
 <form method="post" action="/Matrix/Results.aspx?c=AAEAAAD*****AQAAAAAAAAARAQAAAEQAAAAGAgAAAAQxMjUyBgMAAAABNwYEAAAAATkGBQAAAAI1OAYGAAAAAjU4DQwGBwAAAAMxMDAGCAAAAAIyNQ0FBgkAAAACMTANEQYKAAAABzEwNzIzOTMNCgYLAAAAATENCAYMAAAACDB8MTYzfDEyDQIGDQAAAAbDp3I*wr0NAgs)" id="Form1" class="stickyform j-modalAttachTarget">
 <div class="aspNetHidden">
-
-
-
-
-
-
-
-
-
-
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__QA" id="__QA" value="">
+<input type="hidden" name="hfCheckAllChangedTo" id="hfCheckAllChangedTo" value="">
+<input type="hidden" name="hfChangedCheckboxes" id="hfChangedCheckboxes" value="">
+<input type="hidden" name="hfCheckedListingsNotOnDisplay" id="hfCheckedListingsNotOnDisplay" value="">
+<input type="hidden" name="hfIsManualSort" id="hfIsManualSort" value="">
+<input type="hidden" name="hfManualSortKeys" id="hfManualSortKeys" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
 </div>
 
 <script type="text/javascript">
@@ -156,7 +74,7 @@ Dpy.addStyleSheet('\/Matrix\/Public\/Template\/Css.ashx?t=58&v=186');
 var ImageViewerML = {th:'Thumbnails',closeth:'Close Thumbnails',lb:'Larger View',play:'Slideshow',pause:'Stop',print:'Open All'};
 var displayButtons;
 Dpy.setWhyCantSort('m_DisplayCore',undefined);
-var DpyCB = (new DisplayCheckBoxSetClass({ HFPrefix:'',CBPrefix:'CHB_',SingleSelect:false}).initialise(34,0,25,0));
+var DpyCB = (new DisplayCheckBoxSetClass({ HFPrefix:'',CBPrefix:'CHB_',SingleSelect:false}).initialise(34,0,34,0));
 DpyCB.addListener(ResultsJs.updateSubHeadCheckControls);
 DpyCB.addListener(ResultsJs.updateButtonBarCheckedCount);
 DpyCB.addListener(DpyHelp.updateCheckAll('m_cbxBottomCheckAll'));
@@ -211,8 +129,8 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 <script src="/Matrix/ScriptResource.axd?d=8QSx1WsmaOTRY1uZ-WukA39gOO3H0zLOTjf0vpktHBJSD9FF0z00HbQn1R90T0XWZTOoGDDfw2DN-5EdiqUt9gTCxBe1ucQCi9Kh8LXs4Qyq8D3ZyELwSNqRkcYwTHA_J2GHnzJ3DkvH4eVJ4F_08USBmdlsGr9aYxj1-Fbrl6V8oO3fLsH0AIc8_Ce9gx3h0SoMjw2&amp;t=49337fe8" type="text/javascript"></script>
 <div class="aspNetHidden">
 
-	
-	
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FC82AFCD">
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="">
 </div>
 <!-- START OF IE 11 FIX FOR MAPS -->
 	<script>
@@ -937,7 +855,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 									<a href="/Matrix/MyMatrix" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;My Matrix&quot;]" class="sf-with-ul">
 										<span class="text-uppercase">My Matrix</span>
 									</a>
-									<ul style="display: none; float: none; width: 15em;">
+									<ul style="display: none; float: none; width: auto;">
 											<li style="white-space: nowrap; float: none; width: auto;">
 												<a href="/Matrix/MyMatrix/Dashboard" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;My Matrix&quot;,&quot;Dashboard&quot;]" style="float: none; width: auto;">
 													<span>Dashboard</span>
@@ -1029,7 +947,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 									<a href="/Matrix/AddEdit" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Add/Edit&quot;]" class="sf-with-ul">
 										<span class="text-uppercase">Add/Edit</span>
 									</a>
-									<ul style="display: none; float: none; width: 21.1429em;">
+									<ul style="display: none; float: none; width: auto;">
 											<li style="white-space: nowrap; float: none; width: auto;">
 												<a href="/Matrix/AddEdit/MatrixAddEdit" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Add/Edit&quot;,&quot;Matrix Add/Edit&quot;]" style="float: none; width: auto;">
 													<span>Matrix Add/Edit</span>
@@ -1051,12 +969,12 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 									<a href="/Matrix/Search" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;]" class="sf-with-ul">
 										<span class="text-uppercase">Search</span>
 									</a>
-									<ul style="display: none; float: none; width: 19em;">
+									<ul style="display: none; float: none; width: auto;">
 											<li style="white-space: nowrap; float: none; width: auto;">
 												<a href="/Matrix/Search/SingleFamily" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;,&quot;Single-Family&quot;]" class="sf-with-ul" style="float: none; width: auto;">
 													<span>Single-Family</span>
 												</a>
-												<ul style="display: none; left: 100%; float: none; width: 19.5em;">
+												<ul style="display: none; left: 100%; float: none; width: auto;">
 														<li style="white-space: nowrap; float: none; width: auto;">
 															<a href="/Matrix/Search/SingleFamily/QuickSingleFamily" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;,&quot;Single-Family&quot;,&quot;Quick Single-Family&quot;]" style="float: none; width: auto;">
 																<span style="display:inline-block;width:10px;"></span>
@@ -1084,7 +1002,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 												<a href="/Matrix/Search/TownhouseCondo" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;,&quot;Townhouse/Condo&quot;]" class="sf-with-ul" style="float: none; width: auto;">
 													<span>Townhouse/Condo</span>
 												</a>
-												<ul style="display: none; left: 100%; float: none; width: 22.1429em;">
+												<ul style="display: none; left: 100%; float: none; width: auto;">
 														<li style="white-space: nowrap; float: none; width: auto;">
 															<a href="/Matrix/Search/TownhouseCondo/QuickTownhouseCondo" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;,&quot;Townhouse/Condo&quot;,&quot;Quick Townhouse/Condo&quot;]" style="float: none; width: auto;">
 																<span style="display:inline-block;width:10px;"></span>
@@ -1112,7 +1030,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 												<a href="/Matrix/Search/Lots" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;,&quot;Lots&quot;]" class="sf-with-ul" style="float: none; width: auto;">
 													<span>Lots</span>
 												</a>
-												<ul style="display: none; left: 100%; float: none; width: 14.7143em;">
+												<ul style="display: none; left: 100%; float: none; width: auto;">
 														<li style="white-space: nowrap; float: none; width: auto;">
 															<a href="/Matrix/Search/Lots/QuickLots" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;,&quot;Lots&quot;,&quot;Quick Lots&quot;]" style="float: none; width: auto;">
 																<span style="display:inline-block;width:10px;"></span>
@@ -1140,7 +1058,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 												<a href="/Matrix/Search/MultiFamily" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;,&quot;Multi-Family&quot;]" class="sf-with-ul" style="float: none; width: auto;">
 													<span>Multi-Family</span>
 												</a>
-												<ul style="display: none; left: 100%; float: none; width: 18.8571em;">
+												<ul style="display: none; left: 100%; float: none; width: auto;">
 														<li style="white-space: nowrap; float: none; width: auto;">
 															<a href="/Matrix/Search/MultiFamily/QuickMultiFamily" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;,&quot;Multi-Family&quot;,&quot;Quick Multi-Family&quot;]" style="float: none; width: auto;">
 																<span style="display:inline-block;width:10px;"></span>
@@ -1161,7 +1079,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 												<a href="/Matrix/Search/CountryHomesAcreage" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;,&quot;Country Homes/Acreage&quot;]" class="sf-with-ul" style="float: none; width: auto;">
 													<span>Country Homes/Acreage</span>
 												</a>
-												<ul style="display: none; left: 100%; float: none; width: 25em;">
+												<ul style="display: none; left: 100%; float: none; width: auto;">
 														<li style="white-space: nowrap; float: none; width: auto;">
 															<a href="/Matrix/Search/CountryHomesAcreage/QuickCountryHomesAcreage" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;,&quot;Country Homes/Acreage&quot;,&quot;Quick Country Homes/Acreage&quot;]" style="float: none; width: auto;">
 																<span style="display:inline-block;width:10px;"></span>
@@ -1182,7 +1100,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 												<a href="/Matrix/Search/MidHiRiseCondo" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;,&quot;Mid/Hi-Rise Condo&quot;]" class="sf-with-ul" style="float: none; width: auto;">
 													<span>Mid/Hi-Rise Condo</span>
 												</a>
-												<ul style="display: none; left: 100%; float: none; width: 22.2857em;">
+												<ul style="display: none; left: 100%; float: none; width: auto;">
 														<li style="white-space: nowrap; float: none; width: auto;">
 															<a href="/Matrix/Search/MidHiRiseCondo/QuickMidHiRiseCondo" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;,&quot;Mid/Hi-Rise Condo&quot;,&quot;Quick Mid/Hi-Rise Condo&quot;]" style="float: none; width: auto;">
 																<span style="display:inline-block;width:10px;"></span>
@@ -1203,7 +1121,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 												<a href="/Matrix/Search/Rental" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;,&quot;Rental&quot;]" class="sf-with-ul" style="float: none; width: auto;">
 													<span>Rental</span>
 												</a>
-												<ul style="display: none; left: 100%; float: none; width: 15.7143em;">
+												<ul style="display: none; left: 100%; float: none; width: auto;">
 														<li style="white-space: nowrap; float: none; width: auto;">
 															<a href="/Matrix/Search/Rental/QuickRental" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;,&quot;Rental&quot;,&quot;Quick Rental&quot;]" style="float: none; width: auto;">
 																<span style="display:inline-block;width:10px;"></span>
@@ -1245,7 +1163,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 												<a href="/Matrix/Search/AllProperties" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;,&quot;All Properties&quot;]" class="sf-with-ul" style="float: none; width: auto;">
 													<span>All Properties</span>
 												</a>
-												<ul style="display: none; left: 100%; float: none; width: 17.2857em;">
+												<ul style="display: none; left: 100%; float: none; width: auto;">
 														<li style="white-space: nowrap; float: none; width: auto;">
 															<a href="/Matrix/Search/AllProperties/Quick" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Search&quot;,&quot;All Properties&quot;,&quot;Quick&quot;]" style="float: none; width: auto;">
 																<span style="display:inline-block;width:10px;"></span>
@@ -1304,7 +1222,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 									<a href="/Matrix/Tax" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Tax&quot;]" class="sf-with-ul">
 										<span class="text-uppercase">Tax</span>
 									</a>
-									<ul style="display: none; float: none; width: 17.8571em;">
+									<ul style="display: none; float: none; width: auto;">
 											<li style="white-space: nowrap; float: none; width: auto;">
 												<a href="/Matrix/special/thirdpartyformpost.aspx?n=REALISTA" target="_blank" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Tax&quot;,&quot;Realist Tax&quot;]" style="float: none; width: auto;">
 													<span>Realist Tax</span>
@@ -1349,7 +1267,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 									<a href="http://www.har.com/homevalues/seller_netsheet" target="_blank" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Finance&quot;]" class="sf-with-ul">
 										<span class="text-uppercase">Finance</span>
 									</a>
-									<ul style="display: none; float: none; width: 20em;">
+									<ul style="display: none; float: none; width: auto;">
 											<li style="white-space: nowrap; float: none; width: auto;">
 												<a href="http://www.har.com/homevalues/seller_netsheet" target="_blank" data-mtx-track="Top Menu - Menu Item Click" data-mtx-track-prop-item="[&quot;Finance&quot;,&quot;HAR Seller's Net Sheet&quot;]" style="float: none; width: auto;">
 													<span>HAR Seller's Net Sheet</span>
@@ -1380,13 +1298,13 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 									</a>
 									
 								</li>
-								
+								<div class="divider-vertical">&nbsp;</div>
 							
-						<li class="sf-top" id="navMore" style="display: none;">
+						<li class="sf-top" id="navMore">
 							<a class="sf-with-ul">
 								<span class="text-uppercase"><span>More</span></span>
 							</a>
-							<ul style="display: none; float: none; width: 9em;">
+							<ul style="display: none; float: none; width: auto;">
 							</ul>
 						</li>
 						
@@ -1446,7 +1364,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 		
 		<span class="caret"></span>
 	</a>
-	<ul style="display: none; float: none; width: 10.3571em;">
+	<ul style="display: none; float: none; width: auto;">
 		
 		
 				<li style="white-space: nowrap; float: none; width: auto;">
@@ -1611,7 +1529,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 </div>
 
 <div id="ctl01_m_pnlNavBar" class="tier4 navBar faded" style="padding:2px 10px;">
-	<a href="/Matrix/Default.aspx?c=AAEAAAD*****AQAAAAAAAAARAQAAAEQAAAAGAgAAAAQxMjUyDRcGAwAAAAE5DSgGBAAAAAVhAS*Dtg0CCw))" data-mtx-track="Top Menu - Breadcrumb Click" data-mtx-track-prop-type="Normal" data-mtx-track-prop-label="Home">Home</a>&nbsp;&gt;&nbsp;Market Watch: New Listing
+	<a href="/Matrix/Default.aspx?c=AAEAAAD*****AQAAAAAAAAARAQAAAEQAAAAGAgAAAAQxMjUyDRcGAwAAAAE5DSgGBAAAAAVNwr89JQ0CCw))" data-mtx-track="Top Menu - Breadcrumb Click" data-mtx-track-prop-type="Normal" data-mtx-track-prop-label="Home">Home</a>&nbsp;&gt;&nbsp;Market Watch: New Listing
 </div>
 
 <div class="tier3">
@@ -1626,15 +1544,16 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 
 
 <div id="m_upDivPopups">
+	
 		<div id="m_divGridOptions" class="buttonPopup" style="display: none; z-index: 5001; font-size: 11px; width: 245px; padding: 0 0.5em;">
 			<div id="m_ucGridSaveLinks_m_phDisplayName" style="margin-top:0.2em;">
-	
+		
 	<span id="m_ucGridSaveLinks_m_lbDisplayName">Display Name:</span>
 	<div style="padding: 2px 7px 2px 0px;">
 		<input name="m_ucGridSaveLinks$m_tbNewDisplayName" type="text" value="Hotsheet" id="m_ucGridSaveLinks_m_tbNewDisplayName" style="width:100%;">
 	</div>
 
-</div>
+	</div>
 <ul>
 	<li></li>
 	<li><a id="m_ucGridSaveLinks_m_lbSaveAs" data-mtx-track="<%#:AnalyticsContext %> - Save as a Copy Click" href="javascript:__doPostBack('m_ucGridSaveLinks$m_lbSaveAs','')">Save As a Copy</a></li>
@@ -1669,7 +1588,8 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 				</li>
 			</ul>
 		</div>
-	</div>
+	
+</div>
 <table class="map-container">
 <tbody><tr>
 <td>
@@ -1902,8 +1822,9 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 </div>
 <div class="css_container">
 <div id="m_upSubHeader">
-		<div id="m_pnlSubHeader" class="resultsSubHeader css_heading  resultsActive">
 	
+		<div id="m_pnlSubHeader" class="resultsSubHeader css_heading  resultsActive">
+		
 			<div class="mapSearchBarContainer">
 				<table>
 					<tbody><tr>
@@ -1967,36 +1888,36 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 												<div>
 													<span id="m_ucDisplayPicker_m_mlChangeDisplay">Display</span>
 <select name="m_ucDisplayPicker$m_ddlDisplayFormats" id="m_ucDisplayPicker_m_ddlDisplayFormats" class="dropdown displaypickerList j-ddlDisplayFormats" data-mtx-track="Menu Row - Display Dropdown Option" onchange="return ResultsJs.displayPickerDisplayChange(event);" style="width:140px;">
-		<option value="246" class="noGoggles">360 Property View</option>
-		<option value="47" class="hasGoggles">Agent Single Line</option>
-		<option selected="selected" value="58" class="noGoggles">Hotsheet</option>
-		<option value="3" class="hasGoggles">Agent Full</option>
-		<option value="176" class="hasGoggles">Agent Full Photo</option>
-		<option value="97" class="hasGoggles">Agent Full w Tabs</option>
-		<option value="207" class="noGoggles">Agent Full-AVM</option>
-		<option value="171" class="hasGoggles">Agent One Page</option>
-		<option value="100" class="noGoggles">History</option>
-		<option value="4" class="hasGoggles">Agent Thumbnail </option>
-		<option value="178" class="noGoggles">Agent Showing</option>
-		<option value="188" class="noGoggles">Client Showing</option>
-		<option value="5" class="noGoggles">Client Single Line</option>
-		<option value="6" class="noGoggles">Client Full</option>
-		<option value="177" class="noGoggles">Client Full Photo</option>
-		<option value="145" class="noGoggles">Client Full RatePlug</option>
-		<option value="7" class="noGoggles">Client Thumbnail </option>
-		<option value="131" class="noGoggles">Full Property View</option>
-		<option value="11" class="noGoggles">Input Page Search</option>
-		<option value="12" class="noGoggles">Input Summary</option>
+			<option value="246" class="noGoggles">360 Property View</option>
+			<option value="47" class="hasGoggles">Agent Single Line</option>
+			<option selected="selected" value="58" class="noGoggles">Hotsheet</option>
+			<option value="3" class="hasGoggles">Agent Full</option>
+			<option value="176" class="hasGoggles">Agent Full Photo</option>
+			<option value="97" class="hasGoggles">Agent Full w Tabs</option>
+			<option value="207" class="noGoggles">Agent Full-AVM</option>
+			<option value="171" class="hasGoggles">Agent One Page</option>
+			<option value="100" class="noGoggles">History</option>
+			<option value="4" class="hasGoggles">Agent Thumbnail </option>
+			<option value="178" class="noGoggles">Agent Showing</option>
+			<option value="188" class="noGoggles">Client Showing</option>
+			<option value="5" class="noGoggles">Client Single Line</option>
+			<option value="6" class="noGoggles">Client Full</option>
+			<option value="177" class="noGoggles">Client Full Photo</option>
+			<option value="145" class="noGoggles">Client Full RatePlug</option>
+			<option value="7" class="noGoggles">Client Thumbnail </option>
+			<option value="131" class="noGoggles">Full Property View</option>
+			<option value="11" class="noGoggles">Input Page Search</option>
+			<option value="12" class="noGoggles">Input Summary</option>
 
-	</select>
+		</select>
 <span id="m_ucDisplayPicker_m_spnPageSize">
 <span>at</span>
 <select name="m_ucDisplayPicker$m_ddlPageSize" id="m_ucDisplayPicker_m_ddlPageSize" class="dropdown displayPickerPageSize j-ddlPageSize" data-mtx-track="Menu Row - Results per Page Dropdown Option" onchange="return ResultsJs.displayPickerPageSizeChange(event);" style="width:53px;">
-		<option value="25">25</option>
-		<option value="50">50</option>
-		<option selected="selected" value="100">100</option>
+			<option value="25">25</option>
+			<option value="50">50</option>
+			<option selected="selected" value="100">100</option>
 
-	</select>
+		</select>
 <span>per page</span>
 </span>
 
@@ -2072,7 +1993,7 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 											<td id="m_tdGridSave" class="css_innerRight hideOnSearch hideOnMap">
 												<a title="" id="m_aGridSaveLinks" class="per-page" data-toggle="tooltip" data-placement="top" data-mtx-track="Menu Row - Manage Display Click" href="javascript:void(0)" data-original-title="Manage Display"><span class="mtx-linkWithIcon"><i class="fal fa-edit fontawesome-clickable"></i></span></a>
 											</td>
-	
+		
 										</tr>
 										</tbody></table>
 									</td>
@@ -2093,8 +2014,9 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 				</tbody></table>
 			</div>
 		
-</div>
 	</div>
+	
+</div>
 
 <div id="m_upSearch">
 	
@@ -2105,8 +2027,10 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 <div style="position: relative;">
 	
 	<div id="m_upDisplayCore">
+	
 			<div id="m_DisplayCore"></div>
-		</div>
+		
+</div>
 	<div id="ctl13" style="display:none;" role="status" aria-hidden="true">
 	
 			<div style="background: url(/Matrix/Images/bkg_semitrans.png); background: rgba(255, 255, 255, 0.6); z-index: 40; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px;">
@@ -2115,8 +2039,9 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 		
 </div>
 	<div id="m_upDisplay">
-			<div id="m_pnlDisplayTab">
 	
+			<div id="m_pnlDisplayTab">
+		
 				<div id="m_divContent">
 					
 					<div id="m_pnlDisplay">
@@ -2867,10 +2792,10 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 		<a id="m_ucDragDropTable_m_lbAddColumn" class="addCol" data-mtx-track="Column popup - Insert Column Click" href="javascript:__doPostBack('m_ucDragDropTable$m_lbAddColumn','')">Insert Column</a><br>
 		<div style="clear:both;"></div>
 		<div id="m_ucDragDropTable_m_upAddColumn" class="availColumnList">
-		
+			
 				
 			
-	</div>		
+		</div>		
 		<div class="error"></div>
 		<table class="buttonBar" style="float:right;">
 				<tbody><tr>
@@ -2891,8 +2816,9 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 					
 				</div>
 			
+	</div>
+		
 </div>
-		</div>
 </div>
 <div style="position: relative;">
 	
@@ -3251,8 +3177,9 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 </div>
 
 <div id="m_upResultsInfo">
-		<div id="m_pnlResultsInfo" class="css_content" style="clear: both; padding-top: 5px;">
 	
+		<div id="m_pnlResultsInfo" class="css_content" style="clear: both; padding-top: 5px;">
+		
 			<table id="m_tblSqlSearchInfo" style="width: 100%;">
 				<tbody><tr>
 					<td style="padding-right: 20px;">
@@ -3273,8 +3200,9 @@ Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form1', ['tctl01$m
 				</tr>
 			</tbody></table>
 		
-</div>
 	</div>
+	
+</div>
 </td>
 </tr>
 </tbody></table>
@@ -3339,7 +3267,7 @@ $('ul.sf-menu:not(.sf-click-menu)').supersubs().superfish();$('ul.sf-click-menu'
 RegisterPostbackOnClick('ctl01_m_tdMenu','ctl01$m_pbtRedirect');
 RegisterPostbackOnClick('ctl01_m_pnlNavBar','ctl01$m_pbtRedirect');
 ConfirmationMessage.confirmationMessage = new ConfirmationMessage('ctl01_ctl00_m_lblConf', 'ctl01_ctl00_m_divConf');
-TimeOutWarning.RefreshTimers(274.92937392, 10);var gridSaveLinks = new GridSaveLinksJsClass({displayName:'#m_ucGridSaveLinks_m_tbNewDisplayName',save:'#m_ucGridSaveLinks_m_lbSave',saveAs:'#m_ucGridSaveLinks_m_lbSaveAs'}, {BlankDisplayName:function(  ){ return "The Display Name cannot be blank. No changes are saved."; }});gridSaveLinks.init();var ddt = new DragDropTableClass({hfGridState:'#m_ucDragDropTable_m_hfGridState',radioLeft:'#m_ucDragDropTable_m_radioLeft',radioRight:'#m_ucDragDropTable_m_radioRight',radioCenter:'#m_ucDragDropTable_m_radioCenter',ckboxWrap:'#m_ucDragDropTable_m_cbxWrap',txtPixelWidth:'#txtPixelWidth',lbInsertColumn:'#m_ucDragDropTable_m_lbAddColumn',upAddColumn:'#m_ucDragDropTable_m_upAddColumn',lbxAvailableColumns:'#m_ucDragDropTable_m_lbxAvailableFields',popupColProperties:'#columnProperties',tGridTable:'table.displayGrid',tExtraColumns:''}, '58', 186, 0, 50, {TooManyColumns:function(  ){ return "Too many columns added (max 50 total)"; },CannotRemoveColumn:function(  ){ return "There must be at least one column in a grid."; },HowToInsertColumn:function(  ){ return "Select column(s) below and click Apply."; }}, 1);var aeCartsControl = new AddEditCart({ID:'m_ucCartControl_m_ucAddEditCart',DivID:'m_ucCartControl_m_ucAddEditCart_m_divAddEditCart',AddCartSel:'#m_ucCartControl_m_lbAddCart',EditCartSel:'',MissingRequiredFields:function(  ){ return "You have not entered values for all required fields."; },SaveButtonID:'m_ucCartControl_m_ucAddEditCart_m_btnSave',RaisePostBackEvent:function(strAction,nContact){__doPostBack('m_ucCartControl$m_ucAddEditCart$m_ucPostBackTarget',strAction + ',' + nContact);},ReloadOnChange:false});var aec = new AddEditContact({ID:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact',DivID:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_divContactFields',AddContactSel:'#m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_lnkAdd',EditContactSel:'',SaveButtonID:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_btnSave',TDExpandID:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_tdExpand',TDCollapseID:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_tdCollapse',MissingRequiredFields:function(  ){ return "You have not entered values for all required fields."; },CanModifyContacts:true,IsSelf:true,RaisePostBackEvent:function(strAction,nContact){__doPostBack('m_ucCartControl$m_ucAddEditCart$m_ucContacts$m_ucAddEditContact$m_ucPostBackTarget',strAction + ',' + nContact);},CustomCategoriesDivID:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_divCustomCategories',ReloadOnChange:false,RequiredFieldsSel:'#m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_cf_m_txtPIFirstName,#m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_cf_m_txtPILastName,#m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_cf_m_txtPIEmailAddress',CategoryDropDownID:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_cf_m_ucCategory_m_ddlCategory',SalutationFields:{Title:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_cf_m_txtPITitle', FirstName:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_cf_m_txtPIFirstName', LastName:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_cf_m_txtPILastName'},SalutationPicker:new SalutationPicker('m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_cf_m_ucSalutations_m_ddlSalutations',{'1':function(rec,ME){return 'Hi '+rec('FirstName')+',';},'2':function(rec,ME){return 'Hello '+rec('FirstName')+',';},'3':function(rec,ME){return 'Dear '+(ME.isEmpty(rec('Title'))?'':rec('Title')+' ')+rec('FullName')+',';},'4':function(rec,ME){return 'Dear #ERR#';},'0':null})});ResultsJs.bindResults(DpyCB,false,false);
+TimeOutWarning.RefreshTimers(272.518887071667, 10);var gridSaveLinks = new GridSaveLinksJsClass({displayName:'#m_ucGridSaveLinks_m_tbNewDisplayName',save:'#m_ucGridSaveLinks_m_lbSave',saveAs:'#m_ucGridSaveLinks_m_lbSaveAs'}, {BlankDisplayName:function(  ){ return "The Display Name cannot be blank. No changes are saved."; }});gridSaveLinks.init();var ddt = new DragDropTableClass({hfGridState:'#m_ucDragDropTable_m_hfGridState',radioLeft:'#m_ucDragDropTable_m_radioLeft',radioRight:'#m_ucDragDropTable_m_radioRight',radioCenter:'#m_ucDragDropTable_m_radioCenter',ckboxWrap:'#m_ucDragDropTable_m_cbxWrap',txtPixelWidth:'#txtPixelWidth',lbInsertColumn:'#m_ucDragDropTable_m_lbAddColumn',upAddColumn:'#m_ucDragDropTable_m_upAddColumn',lbxAvailableColumns:'#m_ucDragDropTable_m_lbxAvailableFields',popupColProperties:'#columnProperties',tGridTable:'table.displayGrid',tExtraColumns:''}, '58', 186, 0, 50, {TooManyColumns:function(  ){ return "Too many columns added (max 50 total)"; },CannotRemoveColumn:function(  ){ return "There must be at least one column in a grid."; },HowToInsertColumn:function(  ){ return "Select column(s) below and click Apply."; }}, 1);var aeCartsControl = new AddEditCart({ID:'m_ucCartControl_m_ucAddEditCart',DivID:'m_ucCartControl_m_ucAddEditCart_m_divAddEditCart',AddCartSel:'#m_ucCartControl_m_lbAddCart',EditCartSel:'',MissingRequiredFields:function(  ){ return "You have not entered values for all required fields."; },SaveButtonID:'m_ucCartControl_m_ucAddEditCart_m_btnSave',RaisePostBackEvent:function(strAction,nContact){__doPostBack('m_ucCartControl$m_ucAddEditCart$m_ucPostBackTarget',strAction + ',' + nContact);},ReloadOnChange:false});var aec = new AddEditContact({ID:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact',DivID:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_divContactFields',AddContactSel:'#m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_lnkAdd',EditContactSel:'',SaveButtonID:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_btnSave',TDExpandID:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_tdExpand',TDCollapseID:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_tdCollapse',MissingRequiredFields:function(  ){ return "You have not entered values for all required fields."; },CanModifyContacts:true,IsSelf:true,RaisePostBackEvent:function(strAction,nContact){__doPostBack('m_ucCartControl$m_ucAddEditCart$m_ucContacts$m_ucAddEditContact$m_ucPostBackTarget',strAction + ',' + nContact);},CustomCategoriesDivID:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_divCustomCategories',ReloadOnChange:false,RequiredFieldsSel:'#m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_cf_m_txtPIFirstName,#m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_cf_m_txtPILastName,#m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_cf_m_txtPIEmailAddress',CategoryDropDownID:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_cf_m_ucCategory_m_ddlCategory',SalutationFields:{Title:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_cf_m_txtPITitle', FirstName:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_cf_m_txtPIFirstName', LastName:'m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_cf_m_txtPILastName'},SalutationPicker:new SalutationPicker('m_ucCartControl_m_ucAddEditCart_m_ucContacts_m_ucAddEditContact_m_cf_m_ucSalutations_m_ddlSalutations',{'1':function(rec,ME){return 'Hi '+rec('FirstName')+',';},'2':function(rec,ME){return 'Hello '+rec('FirstName')+',';},'3':function(rec,ME){return 'Dear '+(ME.isEmpty(rec('Title'))?'':rec('Title')+' ')+rec('FullName')+',';},'4':function(rec,ME){return 'Dear #ERR#';},'0':null})});ResultsJs.bindResults(DpyCB,false,false);
 ResultsJs.setCanCheckAll(true);
 ResultsJs.bindSubHeader();
 ResultsJs.resizeGrid();
@@ -3351,7 +3279,7 @@ Sys.Application.add_init(function() {
 });
 //]]>
 </script>
-<span style="display: none !important;"><input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value=""></span><span style="display: none !important;"><input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value=""></span><span style="display: none !important;"><input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value=""></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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"></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FC82AFCD"></span><span style="display: none !important;"><input type="hidden" name="__QA" id="__QA" value=""></span><span style="display: none !important;"><input type="hidden" name="hfCheckAllChangedTo" id="hfCheckAllChangedTo" value=""></span><span style="display: none !important;"><input type="hidden" name="hfChangedCheckboxes" id="hfChangedCheckboxes" value=""></span><span style="display: none !important;"><input type="hidden" name="hfCheckedListingsNotOnDisplay" id="hfCheckedListingsNotOnDisplay" value=""></span><span style="display: none !important;"><input type="hidden" name="hfIsManualSort" id="hfIsManualSort" value=""></span><span style="display: none !important;"><input type="hidden" name="hfManualSortKeys" id="hfManualSortKeys" value=""></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value=""></span></form><div class="resizeFiller"></div>
+</form><div class="resizeFiller"></div>
 
 
 <div id="yt_article_summary_widget_wrapper" class="yt_article_summary_widget_wrapper" style="display: none;">
@@ -3364,4 +3292,4 @@ Sys.Application.add_init(function() {
                 <path d="M20.6816 10.1843C20.9588 9.34066 21.0063 8.4399 20.8192 7.57245C20.6321 6.70499 20.217 5.90134 19.6157 5.24216C19.0143 4.58298 18.2478 4.09146 17.393 3.81692C16.5382 3.54238 15.6253 3.49449 14.7459 3.67805C14.1453 3.01747 13.379 2.52468 12.524 2.24931C11.669 1.97394 10.7555 1.92571 9.87559 2.10947C8.99568 2.29324 8.18039 2.70252 7.51181 3.29608C6.84323 3.88965 6.34499 4.64654 6.06725 5.49055C5.18642 5.67292 4.3699 6.08122 3.70003 6.67426C3.03017 7.26731 2.53064 8.02413 2.25182 8.86842C1.97299 9.71271 1.92474 10.6146 2.11192 11.4832C2.2991 12.3517 2.71509 13.1562 3.31795 13.8155C3.09309 14.4899 3.01633 15.2037 3.09278 15.9095C3.16924 16.6154 3.39716 17.2971 3.76139 17.9093C4.30169 18.8351 5.12567 19.568 6.11483 20.0027C7.104 20.4373 8.20738 20.5512 9.26631 20.328C9.74353 20.8568 10.3291 21.2796 10.9844 21.5684C11.6396 21.8571 12.3495 22.0053 13.0672 22.003C14.1516 22.003 15.2081 21.6635 16.0847 21.0334C16.9612 20.4034 17.6125 19.5152 17.9449 18.4968C18.649 18.3539 19.3141 18.0649 19.8962 17.6489C20.4784 17.233 20.9642 16.6997 21.3214 16.0843C21.8585 15.1598 22.0858 14.0915 21.9709 13.032C21.856 11.9724 21.4048 10.9758 20.6816 10.1843ZM13.0798 20.6968C12.191 20.6968 11.3302 20.3894 10.6473 19.828L10.7677 19.7593L14.8029 17.4593C14.9069 17.4047 14.9935 17.3225 15.0528 17.2221C15.1121 17.1216 15.1418 17.0068 15.1386 16.8905V11.2655L16.8427 12.2405C16.8517 12.2441 16.8594 12.2501 16.865 12.2579C16.8706 12.2656 16.8739 12.2748 16.8744 12.2843V16.9343C16.876 17.4289 16.7785 17.9189 16.5875 18.3761C16.3964 18.8333 16.1156 19.2488 15.7611 19.5985C15.4067 19.9482 14.9856 20.2253 14.5222 20.4138C14.0588 20.6023 13.5621 20.6984 13.0608 20.6968H13.0798ZM4.90165 17.2593C4.46164 16.5029 4.3026 15.6189 4.45188 14.7593L4.57224 14.828L8.60749 17.128C8.70379 17.1829 8.81303 17.2118 8.92423 17.2118C9.03543 17.2118 9.14467 17.1829 9.24097 17.128L14.1758 14.3218V16.253C14.1797 16.2608 14.1817 16.2694 14.1817 16.278C14.1817 16.2867 14.1797 16.2953 14.1758 16.303L10.0962 18.628C9.66403 18.8748 9.18685 19.0352 8.69188 19.0999C8.19692 19.1647 7.69387 19.1326 7.21148 19.0055C6.72909 18.8784 6.27681 18.6587 5.88048 18.3591C5.48415 18.0595 5.15154 17.6858 4.90165 17.2593ZM3.83741 8.5843C4.28764 7.82089 4.99655 7.23878 5.83919 6.94055V11.6718C5.83595 11.7857 5.86434 11.8983 5.92128 11.9975C5.97823 12.0966 6.06156 12.1785 6.16227 12.2343L11.0717 15.028L9.36766 16.003C9.34918 16.0092 9.32914 16.0092 9.31065 16.003L5.23106 13.678C4.36041 13.1812 3.72487 12.3642 3.46364 11.4059C3.20242 10.4476 3.33682 9.42624 3.83741 8.56555V8.5843ZM17.8563 11.7968L12.9278 8.9718L14.6319 8.00305C14.6403 7.99741 14.6502 7.99439 14.6604 7.99439C14.6705 7.99439 14.6805 7.99741 14.6889 8.00305L18.7685 10.328C19.3915 10.684 19.8992 11.2072 20.2325 11.8368C20.5659 12.4664 20.7111 13.1764 20.6514 13.8843C20.5916 14.5921 20.3294 15.2687 19.8951 15.8352C19.4608 16.4017 18.8724 16.8349 18.1983 17.0843V12.353C18.1946 12.2391 18.1612 12.1281 18.1013 12.0306C18.0414 11.9332 17.957 11.8527 17.8563 11.7968ZM19.554 9.2968L19.4336 9.2218L15.4047 6.9093C15.3047 6.84846 15.1896 6.81624 15.0721 6.81624C14.9547 6.81624 14.8395 6.84846 14.7396 6.9093L9.8111 9.71555V7.75305C9.8061 7.7445 9.80346 7.7348 9.80346 7.72492C9.80346 7.71505 9.8061 7.70535 9.8111 7.6968L13.897 5.37805C14.5222 5.02257 15.2371 4.85003 15.958 4.88059C16.6789 4.91115 17.3762 5.14356 17.9682 5.55064C18.5601 5.95772 19.0225 6.52265 19.301 7.17939C19.5796 7.83614 19.663 8.55755 19.5413 9.2593L19.554 9.2968ZM8.87989 12.7218L7.1695 11.753C7.15339 11.7405 7.1422 11.7228 7.13782 11.703V7.06555C7.13785 6.35289 7.34371 5.65499 7.73128 5.0536C8.11885 4.45222 8.67209 3.97224 9.32619 3.6699C9.98029 3.36756 10.7082 3.25537 11.4246 3.34647C12.141 3.43757 12.8162 3.7282 13.3712 4.1843L13.2636 4.25305L9.21563 6.55305C9.11158 6.60765 9.02504 6.68981 8.96573 6.79029C8.90642 6.89076 8.87669 7.00557 8.87989 7.1218V12.7218ZM9.80476 10.753L11.9966 9.50305L14.1948 10.753V13.253L11.9966 14.503L9.79843 13.253L9.80476 10.753Z" stroke="#828282" stroke-width="0.2" mask="url(#path-1-outside-1_3606_3145)"></path>
             </svg></div>
         <div id="yt_article_summary_close_button" class="yt_article_summary_close_button">×</div>
-    </div><div class="resizeFiller"></div><div class="resizeFiller"></div></body></html>
+    </div></body></html>
